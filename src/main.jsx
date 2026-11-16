@@ -11,9 +11,10 @@ import { Flipkart } from './components/flipkart/flipkart.jsx'
 import { Weather } from './components/weather/weather.jsx'
 import { Shopping } from './components/shopping/shopping.jsx'
 import { EventDemo } from './components/event-demo/event-demo.jsx'
+import { EmiCalculator } from './components/emi-calculator/emi-calculator.jsx'
 
 createRoot(document.getElementById('root')).render(
  
-    <EventDemo />
+    <Weather />
   
 )
