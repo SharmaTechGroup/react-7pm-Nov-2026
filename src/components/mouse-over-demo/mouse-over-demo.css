@@ -1,0 +1,8 @@
+
+.col-1 img {
+    border:2px solid gray;
+}
+.col-1 img:hover {
+    border:2px solid blue;
+    cursor: grab;
+}

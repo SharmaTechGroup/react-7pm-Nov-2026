@@ -11,7 +11,7 @@ export function Weather(){
     const [txtCityName, setTxtCityName] = useState(null);
 
     function LoadWeatherData(){
-        let api_key = "f2b822a7d4639704800c2645720c6dbc";
+        let api_key = "Your API Key";
         axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${api_key}&units=metric`)
         .then(response=>{
              setWeatherObj(response.data);

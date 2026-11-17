@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        var uname = "John";
-        function bodyload(){
-            
-            document.getElementById("txtName").value = uname;
-            document.querySelector("p").innerHTML = `Hello ! ${uname}`;
+       function VerifyPassword(e){
+        var pwd = document.getElementById("txtPwd").value; 
+        console.log(`Key Code:${e.keyCode}\n Char Code:${e.charCode}`);
+        if(pwd==="admin"){
+            document.querySelector("p").innerHTML = "Login Success";
+        } else {
+            document.querySelector("p").innerHTML = "Invalid Password";
         }
-        function NameChange(){
-            uname = document.getElementById("txtName").value;
-            document.querySelector("p").innerHTML = `Hello ! ${uname}`;
-        }
+       }
     </script>
 </head>
-<body onload="bodyload()">
-    <input type="text" onkeyup="NameChange()" id="txtName">
+<body>
+    <input type="text" id="txtPwd" onkeypress="VerifyPassword(event)">
     <p></p>
 </body>
 </html>
