@@ -16,9 +16,10 @@ import { MouseOverDemo } from './components/mouse-over-demo/mouse-over-demo.jsx'
 import { MouseDownDemo } from './components/mouse-down-demo/mouse-down-demo.jsx'
 import { MouseMoveDemo } from './components/mouse-move-demo/mouse-move-demo.jsx'
 import { KeyDemo } from './components/key-demo/key-demo.jsx'
+import { DebounceDemo } from './components/debounce-demo/debounce-demo.jsx'
 
 createRoot(document.getElementById('root')).render(
  
-    <KeyDemo />
+    <DebounceDemo />
   
 )
