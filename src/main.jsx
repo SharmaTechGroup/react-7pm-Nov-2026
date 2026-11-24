@@ -19,9 +19,13 @@ import { KeyDemo } from './components/key-demo/key-demo.jsx'
 import { DebounceDemo } from './components/debounce-demo/debounce-demo.jsx'
 import { StopWatch } from './components/stop-watch/stop-watch.jsx'
 import { CarouselDemo } from './components/carousel-demo/carousel-demo.jsx'
+import { FormDemo } from './components/form-demo/form-demo.jsx'
+import { FormikDemo } from './components/formik-demo/formik-demo.jsx'
+import { YupDemo } from './components/yup-demo/yup-demo.jsx'
+import { FormikComponentDemo } from './components/formik-component-demo/formik-component-demo.jsx'
 
 createRoot(document.getElementById('root')).render(
  
-    <CarouselDemo />
+    <FormikComponentDemo />
   
 )

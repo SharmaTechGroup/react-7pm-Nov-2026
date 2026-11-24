@@ -4,20 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-       function VerifyPassword(e){
-        var pwd = document.getElementById("txtPwd").value; 
-        console.log(`Key Code:${e.keyCode}\n Char Code:${e.charCode}`);
-        if(pwd==="admin"){
-            document.querySelector("p").innerHTML = "Login Success";
-        } else {
-            document.querySelector("p").innerHTML = "Invalid Password";
-        }
-       }
-    </script>
 </head>
 <body>
-    <input type="text" id="txtPwd" onkeypress="VerifyPassword(event)">
-    <p></p>
+    <form method="get">
+        <input type="text" name="user">
+        <input type="number" name="age">
+        <button>Submit</button>
+    </form>
 </body>
 </html>
