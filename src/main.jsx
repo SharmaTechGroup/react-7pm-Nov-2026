@@ -24,9 +24,11 @@ import { FormikDemo } from './components/formik-demo/formik-demo.jsx'
 import { YupDemo } from './components/yup-demo/yup-demo.jsx'
 import { FormikComponentDemo } from './components/formik-component-demo/formik-component-demo.jsx'
 import { HookFormDemo } from './components/hook-form-demo/hook-form-demo.jsx'
+import { ConditionDemo } from './components/condition-demo/condition-demo.jsx'
+import { ControlledDemo } from './components/controlled-demo/controlled-demo.jsx'
 
 createRoot(document.getElementById('root')).render(
  
-    <HookFormDemo />
+    <ControlledDemo />
   
 )
