@@ -12,9 +12,9 @@ export function ControlledDemo(){
     return(
         <div className="container-fluid">
             <h3>Shopping</h3>
-            <Navbar theme='bg-dark text-white' brandName='Shopping' brandLogo='bi bi-bag-fill' navItems={['Home', 'Shop', 'Offers', 'Brands', 'Business']} />
+            <Navbar layout="sidebar" theme='bg-dark text-white' brandName='Shopping' brandLogo='bi bi-bag-fill' navItems={['Home', 'Shop', 'Offers', 'Brands', 'Business']} />
             <h3>Weather</h3>
-            <Navbar theme='bg-danger text-white' brandName='Weather App' brandLogo='bi bi-cloud-drizzle' navItems={['City', 'State', 'Country', 'Stats', 'History', 'Forecast']} />
+            <Navbar layout="navbar" theme='bg-danger text-white' brandName='Weather App' brandLogo='bi bi-cloud-drizzle' navItems={['City', 'State', 'Country', 'Stats', 'History', 'Forecast']} />
             <h3>Employee Data</h3>
             <DataGrid caption='Employee Details' data={employees} />
             <h3>Products Data</h3>
